@@ -15,7 +15,7 @@ public class MyEventService {
     private final KafkaClient kafkaClient;
 
     public void process(String key, SendEvent event) {
-        this.sendPayment();
+        this.processing();
 
         MyEvent myEvent = MyEvent.newBuilder()
                 .setEventId(event.getEventId())
@@ -26,7 +26,7 @@ public class MyEventService {
     }
 
     public void process(String key, SendEventRequest event) {
-        this.sendPayment();
+        this.processing();
 
         MyEvent myEvent = MyEvent.newBuilder()
                 .setEventId(event.getEventId())
@@ -38,7 +38,7 @@ public class MyEventService {
 
 
 
-    private void sendPayment() {
+    private void processing() {
         // no implementation, just simulating
     }
 }

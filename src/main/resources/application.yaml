@@ -10,7 +10,5 @@ server:
   port: 9001
 
 kafkademo:
-#  inboundTopic: "send-payment"
-#  outboundTopic: "payment-sent"
   inboundTopic: "send-event"
   outboundTopic: "my-event"

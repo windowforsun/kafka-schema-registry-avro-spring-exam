@@ -3,7 +3,6 @@ package com.windowforsun.kafka.avro.schemaregistry.lib;
 import com.windowforsun.avro.MyEvent;
 import com.windowforsun.kafka.avro.schemaregistry.properties.DemoProperties;
 import com.windowforsun.kafka.avro.schemaregistry.util.TestData;
-import demo.kafka.event.PaymentSent;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.kafka.clients.producer.ProducerRecord;
 import org.apache.kafka.clients.producer.RecordMetadata;
