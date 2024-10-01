@@ -1,0 +1,10 @@
+{
+     "type": "record",
+     "namespace": "com.windowforsun.avro",
+     "name": "SendEvent",
+     "version": "1",
+     "fields": [
+        { "name": "eventId", "type": "string" },
+        { "name": "number", "type": "long" }
+     ]
+}
